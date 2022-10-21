@@ -1,14 +1,8 @@
-body {
-  margin: 0;
-  padding: 10px;
-}
-
 fieldset {
-  padding: 3px 10px;
   margin-bottom: 20px;
 }
 
-.field-label {
+.field-label:not(:last-of-type) {
   display: block;
   margin-bottom: 10px;
 }
