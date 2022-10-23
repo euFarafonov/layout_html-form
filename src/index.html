@@ -99,21 +99,26 @@
       <fieldset>
         <legend>An interesting fact about you!</legend>
 
-        <label class="field-label">
+        <div class="field-label">
           Do you love cats?
-          <input
-            type="radio"
-            name="cats"
-            value="yes"
-          >
-          Yes
-          <input
-            type="radio"
-            name="cats"
-            value="no"
-          >
-          No
-        </label>
+          <label class="field-label-inline">
+            <input
+              type="radio"
+              name="cats"
+              value="yes"
+            >
+            Yes
+          </label>
+
+          <label class="field-label-inline">
+            <input
+              type="radio"
+              name="cats"
+              value="no"
+            >
+            No
+          </label>
+        </div>
 
         <label class="field-label">
           What is your favorite color?

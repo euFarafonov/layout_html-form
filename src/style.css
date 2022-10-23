@@ -6,3 +6,8 @@ fieldset {
   display: block;
   margin-bottom: 10px;
 }
+
+.field-label-inline {
+  display: inline-block;
+  margin-bottom: 10px;
+}
